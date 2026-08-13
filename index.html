@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gravity Classes</title>
+  <!-- custom css -->
+  <link rel="stylesheet" href="stylesheet/style.css">
+  <link rel="stylesheet" href="stylesheet/navbar.css">
+  <link rel="stylesheet" href="stylesheet/header.css">
+  <link rel="stylesheet" href="stylesheet/footer.css">
+  <link rel="stylesheet" href="stylesheet/master.css">
+
+  <!-- all cdn links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navbar part start -->
+  <div class="container-fluid sticky-top " style="z-index: 1030;">
+    <!-- Top Bar Start -->
+    <div class="container-fluid text-white sticky-top p-0" style="z-index: 1031;">
+      <div class="row top-bar">
+        <div class="col-md-4 d-flex justify-content-evenly gap-3 py-2">
+          <a href="tel:+917004166363"><i class="fa-brands fa-whatsapp" data-aos="fade-up"></i>7004166363</a>
+          <a href="tel:+917717752909"><i class="fa-solid fa-phone" data-aos="fade-down"></i>7717752909</a>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center gap-3 py-2" data-aos="zoom-up">
+          <a href="mailto:report2nestiva@gmail.com"><i class="fa-solid fa-envelope"></i>
+            gravityclasses45@gmail.com</a>
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-center gap-3 py-2">
+          <div class="mx-2"><i class="fa fa-facebook" data-aos="fade-right" data-aos-delay="200"></i></div>
+          <div class="mx-2"><i class="fa fa-instagram" data-aos="fade-right" data-aos-delay="300"></i></div>
+          <div class="mx-2"><i class="fa fa-youtube" data-aos="fade-right" data-aos-delay="400"></i></div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Bar End -->
+    <div class="row bg-white">
+      <div class="col-md-10 m-auto">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html"><img src="assets/Logo.png" alt="" width="75px"></a>
+          <!-- toggle button -->
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- toggle button -->
+
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <!-- offcanvas header -->
+            <div class="offcanvas-header">
+              <a href="index.html"><img src="assets/Logo.png" alt="" width="75px"></a>
+              <button type="button" class="btn-close btn-close-black shadow-none border-0" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <!-- offcanvas header -->
+            <!-- offcanvas body -->
+            <div class="offcanvas-body">
+              <!-- navbar nav -->
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-5 gap-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i>
+                    Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"><i class="fa-solid fa-address-card"></i>
+                    About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="courses.html">Courses</a>
+                </li>
+                <!-- Free Course Dropdown Menu added below -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="freeCourseDropdown" role="button">
+                    Free Course PDF
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="freeCourseDropdown">
+                    <li><a class="dropdown-item" href="class-9-pdf.html">Class 9</a></li>
+                    <li><a class="dropdown-item" href="class-10-pdf.html">Class 10</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link" href="tel:+917004166363" role="button" aria-expanded="true">
+                    Call Us
+                  </a>
+                </li>
+              </ul>
+              <!-- navbar nav -->
+            </div>
+            <!-- offcanvas body -->
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar part end -->
+
+
+  <!-- Header part start -->
+  <div class="container-fluid header-section p-0">
+    <div class="row full-width mx-0 m-auto p-3 flex-column-reverse flex-md-row">
+      <div class="col-lg-4 col-md-4 form-sec d-flex flex-column justify-content-center p-3">
+        <div class="hero-content text-center" data-aos="fade-right">
+          <h2 class="display-5">FOUNDATION</h2>
+          <h5>5 to 12th | NEET, IIT/JEE</h5>
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST" data-aos="fade-up">
+          <input type="hidden" name="access_key" value="4f7d70d0-d4d8-4e77-a609-e9d0a8ba5154">
+          <div class="form-group">
+            <center>Share your details and we’ll get back to you.</center>
+            <label for="formGroupExampleInput" class="form-label"></label>
+            <input type="text" name="Full Name" class="form-control" id="formGroupExampleInput"
+              placeholder="Enter your name*" required>
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2" class="form-label"></label>
+            <input type="email" name="Mail Address" class="form-control" id="formGroupExampleInput2"
+              placeholder="yourname@email.com*" required>
+          </div>
+          <div class="form-group mb-4">
+            <label for="formGroupExampleInput2" class="form-label"></label>
+            <input type="tel" name="Contact No." id="phone" pattern="[0-9]{10}"
+              title="Please enter a 10-digit phone number" class="form-control" placeholder="Enter mobile number*"
+              required oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-dark ">Apply Now</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Second Column: Image -->
+      <div class="col-lg-8 col-md-12 carousel slide mb-lg-0 px-0 p-0 mb-0" id="carouselExampleSlidesOnly"
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="assets/gravityBg.png" class="d-block w-100" alt="bg-one">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="assets/gravityBg2.png" class="d-block w-100" alt="bg-2">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="assets/gravityBg3.png" class="d-block w-100" alt="bg-3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header part end -->
+
+  <!-- Coaching Overview Start -->
+  <div class="container-fluid" id="OverviewContainer">
+    <div class="container">
+      <div class="row Overview">
+        <div class="col-lg-10 mx-auto">
+          <div class="overviewCard" data-aos="flip-down">
+            <!-- <h1>About Gravity Classes</h1> -->
+            <h2 data-aos="fade-up">Coaching Overview</h2>
+            <hr>
+            <hr>
+            <p>
+              At <span class="highlight">Gravity Classes</span>, we believe in empowering students
+              to achieve academic excellence and fulfill their career aspirations.
+              Located at the heart of the education hub, we provide top-notch coaching services for students from Grade
+              5 to competitive exams like
+              NEET, IIT/JEE, AMU, Jamia, and NDA.
+            </p>
+            <a href="#" class="btn-learn">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="mission-box" data-aos="flip-up" data-aos-delay="200">
+            <h2>Our Mission</h2>
+            <hr>
+            <hr>
+            <p>
+              To provide <span class="highlight">holistic and result-oriented education</span>
+              that equips students with knowledge, confidence, and skills to excel in their academic and professional
+              endeavors.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="vision-box" data-aos="flip-up" data-aos-delay="400">
+            <h2>Our Vision</h2>
+            <hr>
+            <hr>
+            <p>
+              To be a pioneer in the field of education, recognized for our
+              innovative teaching methods, exceptional results, and unwavering commitment to student success.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Coaching Overview End -->
+
+  <!-- Fixed Background Start -->
+  <div class="container-fluid p-0" id="fixedContainer">
+    <div class="row fixedBackground">
+      <div class="col-md-12 d-flex flex-column justify-content-center align-items-center text-center">
+        <!-- <h2>Join Us Today!</h2>
+        <a href="#" class="btn-join">Get Started</a> -->
+      </div>
+    </div>
+  </div>
+  <!-- Fixed Background End -->
+
+  <!-- Courses start -->
+  <section id="courses" class="courses section-bg">
+    <div class="container mb-5" data-aos="fade-up">
+      <div class="row mt-5">
+        <h2>Our Courses</h2>
+        <p> <b>Gravity classes</b> as the name itself suggests we deliver <br> <b>"Pull</b> factor for Knowledge and
+          <b>Push</b> for
+          Application" in all conducive environment for learning and growth.</p>
+
+        <div class="col-xl-6 col-md-6 d-flex align-items-stretch mt-5" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="fa-solid fa-school"></i></div>
+            <h4><a href="">5<sup>th</sup> | 12<sup>th</sup></a></h4>
+            <p>Building a strong academic foundation is crucial at an early stage. At Gravity Classes, we focus on
+              conceptual clarity, problem-solving skills, and a love for learning.</p>
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-md-6 d-flex align-items-stretch mt-5" data-aos="zoom-in" data-aos-delay="200"
+          data-aos="fade-up">
+          <div class="icon-box">
+            <div class="icon"><i class="fas fa-briefcase"></i></div>
+            <h4><a href="">NEET | IIT/JEE</a></h4>
+            <p>Comprehensive preparation for medical aspirants aiming for top ranks in the NEET exam.</p>
+            <p>Expert coaching for students targeting IITs, NITs, and other premier engineering institutions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Courses end -->
+
+  <!--Image Gallery Animation start-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 gallery-slider">
+        <div class="panel active" style="background-image: url('/assets/codepen1.jpg');"></div>
+        <div class="panel" style="background-image: url('/assets/codepen2.jpg');"></div>
+        <div class="panel" style="background-image: url('/assets/codepen3.jpg');"></div>
+        <div class="panel" style="background-image: url('/assets/codepen4.jpg');"></div>
+        <div class="panel" style="background-image: url('/assets/codepen5.jpg');"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Image Gallery Animation end -->
+
+  <!-- content section start -->
+  <div class="container p-5">
+    <div class="row content-section">
+      <div class="col-md-6 content-text">
+        <h3></h3>
+        <p><span>At Gravity Classes,</span> we don’t just teach; we inspire, guide, and prepare students for a brighter
+          future. Join us to experience a holistic and impactful learning journey!</p>
+      </div>
+      <div class="col-md-6 content-text">
+        <p>Our faculty, led by <span>Er. Amir Sir and Er. Asad Sir,</span> brings years of teaching excellence.
+          They are passionate mentors who use innovative methods to transform the learning experience.</p>
+      </div>
+    </div>
+  </div>
+  <!-- content section end -->
+
+  <!-- heighlight section start -->
+  <section class="highlights-section">
+    <div class="container">
+      <h2 class="section-title">Highlights</h2>
+      <div class="cards">
+        <div class="highlight-card">
+          <i class="fas fa-award"></i>
+          <p>More than <strong>5 years of excellence</strong> in guiding students to success.</p>
+        </div>
+        <div class="highlight-card">
+          <i class="fas fa-user-graduate"></i>
+          <p>We have grown to mentor <strong>hundreds of students</strong>, helping them excel in academics and
+            competitive exams.</p>
+        </div>
+        <div class="highlight-card">
+          <i class="fas fa-school"></i>
+          <p>We operate from <strong>two branches</strong>, providing top-notch education for school and competitive
+            exam preparation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- heighlight section end-->
+
+  <!-- features start -->
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col-md-6 d-flex align-items-center justify-content-center flex-column mb-5">
+        <h2>Join Us Today!</h2>
+        <p> At Gravity Classes, we strive to transform potential into excellence. Let us be your trusted guide on the
+          path to success. Together, we’ll achieve greatness!</p>
+        <a href="tel:+917004166363"><button type="button">Call Us</button></a>
+      </div>
+      <div class="col-md-6">
+        <img src="assets/studentImage.png" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- features end -->
+
+  <!-- admission section start -->
+  <div class="container">
+    <section class="admission-section">
+      <div class="admission-box">
+        <h3>Admission</h3>
+        <h1>OPEN</h1>
+        <p>2025 - 26</p>
+        <a href="contact.html" class="btn-admission">Admission Now</a>
+      </div>
+
+      <div class="testimonial-box">
+        <h3>Our Happy Students Say</h3>
+
+        <!-- Swiper Container -->
+        <div class="swiper testimonial-slider">
+          <div class="swiper-wrapper">
+            <!-- Testimonial 1 -->
+            <div class="swiper-slide">
+              <p class="testimonial-text">
+                <em>"It has been a very good experience for me. Concepts are getting clearer.
+                  Personal attention is given, and I enjoy coming here."</em>
+              </p>
+              <h4 class="student-name">Yash Gondhaleka</h4>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="swiper-slide">
+              <p class="testimonial-text">
+                <em>"The teachers are very helpful and guide us properly.
+                  I feel more confident in my studies now."</em>
+              </p>
+              <h4 class="student-name">Anjali Sharma</h4>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="swiper-slide">
+              <p class="testimonial-text">
+                <em>"A great learning environment with friendly teachers.
+                  I highly recommend this institute!"</em>
+              </p>
+              <h4 class="student-name">Rohan Mehta</h4>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="swiper-slide">
+              <p class="testimonial-text">
+                <em>"I am really happy with my progress. The classes are very interactive."</em>
+              </p>
+              <h4 class="student-name">Priya Verma</h4>
+            </div>
+
+            <!-- Testimonial 5 -->
+            <div class="swiper-slide">
+              <p class="testimonial-text">
+                <em>"The best place to learn! The teaching method is amazing."</em>
+              </p>
+              <h4 class="student-name">Amit Singh</h4>
+            </div>
+          </div>
+
+          <!-- Pagination & Navigation -->
+          <!-- <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- admission section end -->
+
+  <!-- Container for MAP & FORM -->
+  <div class="container gmap">
+    <div class="row faizan">
+      <div class="col-md-6">
+        <iframe class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.6880947551685!2d85.1846702!3d25.615278699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed59749393c079%3A0x2c9bafa3611c37c6!2sGravity%20Classes!5e0!3m2!1sen!2sin!4v1739784391477!5m2!1sen!2sin"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-md-6">
+        <div class="form-container">
+          <h2>Contact Us</h2>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <!-- Add Web3 Forms access key -->
+            <input type="hidden" name="access_key" value="4f7d70d0-d4d8-4e77-a609-e9d0a8ba5154">
+
+            <!-- Name and Phone fields side by side -->
+            <div class="input-group-row">
+              <div class="input-group">
+                <input type="text" name="name" placeholder="Full Name" required>
+              </div>
+              <div class="input-group">
+                <input type="tel" name="phone" placeholder="Phone" required>
+              </div>
+            </div>
+
+            <!-- Email field -->
+            <div class="input-group">
+              <input type="email" name="email" placeholder="Email" required>
+            </div>
+
+            <!-- Address field -->
+            <div class="input-group">
+              <input type="text" name="address" placeholder="Full Address" required>
+            </div>
+
+            <!-- Message field -->
+            <div class="input-group">
+              <textarea name="message" placeholder="Your Message" required></textarea>
+            </div>
+
+            <!-- Submit button -->
+            <div class="input-group mt-3">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- container for map and form -->
+
+  <!-- Footer Start -->
+  <footer id="footer" class="bg-black pt-5 pb-3 text-white mt-5" data-bs-theme="dark">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- Logo Section -->
+        <div class="col-md-4 text-center text-md-start">
+          <a href="index.html">
+            <img src="assets/Logo.png" alt="Gravity Classes Logo" class="footer-logo">
+          </a>
+          <p class="footer-text">
+            Gravity Classes - Empowering students with expert coaching and personalized guidance for academic
+            excellence.
+          </p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="col-md-4">
+          <h5 class="widget-title">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="courses.html">Courses</a></li>
+          </ul>
+        </div>
+
+        <!-- About Section -->
+        <div class="col-md-4">
+          <h5 class="widget-title">About Us</h5>
+          <p class="footer-text">
+            Gravity Classes is a leading institute dedicated to shaping student's future through comprehensive coaching,
+            tailored guidance, and a focus on success in academics and competitive exams.''
+          </p>
+          <ul class="list-unstyled contact-info">
+            <li><i class="fas fa-envelope"></i> <a
+                href="mailto:gravityclasses45@gmail.com">gravityclasses45@gmail.com</a></li>
+            <li><i class="fas fa-phone"></i> <a href="tel:+917717752909">+91-7717752909</a></li>
+
+            <li><i class="fas fa-phone"></i> <a href="tel:+917004166363">+91-7004166363</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Copyright & Developer Info -->
+      <div class="border-top mt-4 pt-3 text-center">
+        <p>© 2024 Gravity Classes. All rights reserved.</p>
+        <p>Developed by <a href="webreign.in" class="developer-link">Webreign</a></p>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!--All fixed button for call and whatsapp start -->
+  <button type="button" class="fixed-enquiry-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+    Enquiry Now
+  </button>
+  <!-- Modal -->
+  <div class="modal fade" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="enquiryModalLabel">Enquiry Form</h5>
+          <button type="button" class="btn-close bg-warning shadow-none border-0" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="4f7d70d0-d4d8-4e77-a609-e9d0a8ba5154" />
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none" />
+
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required />
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email"
+                required />
+            </div>
+
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number"
+                required />
+            </div>
+
+            <!-- Modal Footer with buttons -->
+            <div class="modal-footer">
+              <button type="button" class="btn" data-bs-dismiss="modal" id="btn_close">
+                Close
+              </button>
+              <button type="submit" class="btn btn-brand">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fixed-buttons">
+    <a href="https://wa.me/+917004166363" target="_blank"><img src="assets/wh.png" alt="" data-aos="zoom-in-down" /></a>
+    <a href="tel:+917717752909" class="call"><img src="assets/calling.png" alt="" data-aos="fade-right" /></a>
+  </div>
+  <!--All fixed button for call and whatsapp end -->
+
+  <!-- all cdn js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init({
+      offset: 120,
+      duration: 1000
+    });
+  </script>
+</body>
+
+</html>

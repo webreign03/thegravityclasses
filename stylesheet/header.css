@@ -1,0 +1,91 @@
+.header-section {
+    padding: 0;
+    background-color: var(--yellow);
+}
+
+.header-image {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 8px;
+    background-position: center;
+}
+
+@media (max-width: 991px) {
+    .header-image {
+        height: 50vh;
+        border-radius: 5px;
+    }
+}
+
+.hero-content .display-5 {
+    font-family: 'poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.hero-content h5 {
+    font-size: 25px;
+    color: var(--black);
+}
+
+.form-group center {
+    background-color: var(--black);
+    padding: 0 23px;
+}
+
+.form-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--yellow);
+    color: #fff;
+    font-weight: 600;
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.col-auto button {
+    width: 100%;
+    font-weight: 600;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--black);
+    cursor: pointer;
+}
+
+.col-auto button:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+@media (max-width: 1147px) and (min-width: 768px) {
+    .form-sec {
+        max-width: 600px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .enquiry-form {
+        height: auto;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .form-sec {
+        padding: 10px;
+    }
+
+    .col-auto button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}

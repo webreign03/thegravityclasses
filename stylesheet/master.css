@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --black: #000;
+    /* --black: #fff; */
+    --white: #fff;
+    /* --white:#000; */
+    --yellow: #fade00;
+    /* --yellow:#F7DEC2; */
+    /* --yellow:#2D2D23; */
+    /* --yellow:#475A6E; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Styling the scrollbar for Webkit browsers */
+/* Smooth scrolling for the whole body */
+
+
+/* Custom scrollbar styles */
+html::-webkit-scrollbar {
+    width: 12px;  /* Vertical scrollbar width */
+    height: 12px; /* Horizontal scrollbar height */
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--yellow); 
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(254, 255, 252, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: var(--yellow);
+}
+
+html::-webkit-scrollbar-track {
+    background: var(--black); /* Background of the scrollbar track */
+    border-radius: 10px;
+}
+
+/* Mobile specific adjustments */
+@media (max-width: 768px) {
+    /* Smaller scrollbar for mobile */
+    html::-webkit-scrollbar {
+        width: 8px;  /* Reduced size */
+        height: 8px;
+    }
+
+    html::-webkit-scrollbar-thumb {
+        background: var(--yellow); 
+        border-radius: 8px;
+        box-shadow: 0px 2px 10px rgba(254, 255, 252, 0.5);
+    }
+    
+}
+
+/* whatsapp conectivity */
+/* fixed button */
+  /* Fixed button styles */
+  .fixed-enquiry-btn {
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    background-color: var(--yellow);
+    color:var(--black);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .fixed-enquiry-btn:hover {
+    background-color:var(--black);
+    color:var(--yellow);
+  }
+
+  .modal-header {
+    background-color: var(--black);
+    color:white;
+  }
+
+  .modal-footer .btn{
+    background-color:var(--black);
+    color: white;
+  }
+
+  .modal-footer .btn:hover{
+    background-color:var(--yellow);
+    color:var(--black);
+  }
+  .btn-brand {
+    background-color: var(--yellow);
+    color:var(--black);
+  }
+
+  .modal-footer .btn-brand:hover {
+    background-color:var(--yellow);
+    color:var(--black);
+  }
+
+  .form-label {
+    color: var(--black);
+  }
+  .modal-body {
+    max-height: 70vh; /* Set max height for the modal body */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the max height */
+  }
+
+.fixed-buttons{
+    position: fixed;
+    right: 18px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .fixed-buttons img{
+    width: 50px;
+  }
+  
+
+
+
+  /* important font size for paragraph */
+
+  p{
+    font-style:16px !important;
+    font-weight:500 !important;
+  }
+
+  button{
+    background-color:var(--black);
+    color:var(--yellow);
+    padding:12px 30px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    box-shadow:1px 2px 2px rgba(128, 128, 128, 0.452);
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color:var(--yellow);
+    color:var(--black);
+    transition:0.5s ease all;
+  }

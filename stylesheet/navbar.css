@@ -1,0 +1,107 @@
+/* Top Bar */
+.top-bar {
+  background-color: var(--yellow);
+  color: var(--black);
+}
+
+.top-bar a {
+  text-decoration: none;
+  color: var(--black);
+  cursor: pointer;
+}
+
+/* Navbar part */
+.offcanvas-header {
+  background-color: var(--yellow);
+  color: var(--black);
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-item .active {
+  color: var(--black);
+  border-radius: 5px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: var(--yellow);
+  border-radius: 5px;
+  color: black;
+}
+
+/* Custom CSS to handle the hover */
+.navbar-nav .nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  /* background-color: var(--yellow)!important; */
+  color: var(--black);
+  margin-top: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* Internet Explorer and Edge */
+}
+
+/* Hide scrollbar for WebKit browsers */
+.dropdown-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.dropdown-menu a {
+  font-size: 15px;
+  color: var(--black);
+  scroll-snap-align: start;
+}
+
+.dropdown-divider {
+  width: 100%;
+  margin-top: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Hover Trigger (if used) */
+.hover-trigger {
+  display: inline-block;
+  margin: 100px;
+  cursor: pointer;
+}
+
+.hover-trigger:hover+.modal {
+  display: block !important;
+  opacity: 1;
+}
+
+/* Navbar end */
+
+/* Free Course PDF Link CSS - Dropdown */
+
+/* Enable hover dropdown for Free Course PDF */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Optional: Styling for dropdown items */
+.dropdown-menu {
+  background-color: var(--yellow);
+  border: none;
+}
+
+.dropdown-item {
+  color: var(--black);
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.dropdown-item:hover {
+  background-color: var(--black);
+  color: var(--yellow);
+}

@@ -1,0 +1,54 @@
+/* Footer Styling */
+#footer {
+    background: linear-gradient(135deg, #1a1a1a, #000);
+    color: #ffffff;
+  }
+  
+  .footer-logo {
+    width: 150px;
+    margin-bottom: 15px;
+  }
+  
+  .widget-title {
+    font-size: 18px;
+    font-weight: bold;
+    color:var(--yellow);
+    margin-bottom: 15px;
+  }
+
+  
+  .list-unstyled li {
+    margin-bottom: 8px;
+  }
+  
+  .list-unstyled a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .list-unstyled a:hover {
+    color:var(--yellow);
+  }
+  
+  .contact-info i {
+    color:var(--yellow);
+    margin-right: 8px;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align:left;
+  }
+  
+  .developer-link {
+    font-weight: bold;
+    color:var(--yellow);
+    text-decoration: none;
+  }
+  
+  .developer-link:hover {
+    text-decoration: underline;
+  }
+  
